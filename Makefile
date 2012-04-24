@@ -1,7 +1,7 @@
 all: build
 
 build:
-	@git submodule update
+	@git submodule update --init
 
 test: test-unit
 
@@ -16,7 +16,7 @@ test-debug: build
 
 watch: watch-unit-ubuntu
 
-watch-unit-ubuntu: build
+watch-unit-ubuntu:
 	@./bin/ubuntu-autotest.py
 
 run: build
