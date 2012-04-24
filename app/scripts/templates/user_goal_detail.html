@@ -1,0 +1,26 @@
+<div data-role="page" id="goal-detail-page"> 
+    <div data-role="header">
+        <h1>Goal heading</h1>
+    </div>
+
+    <div data-role="content">
+        <h1>I want to <span class="goal-text" contenteditable="true">{goal}</span>.</h1>
+        <p class="goal-reason" contenteditable="true">{placeholder}{goal_reason}</p>
+        <div data-role="collapsible-set">
+
+          <div data-role="collapsible" data-collapsed="false">
+          <h2>Next steps and actions</h2>
+          <section class="next-steps">
+          </section>
+          </div>
+
+          <div data-role="collapsible">
+          <h2>Other goal info</h2>
+          <section class="planned_date_completed">
+          <p><label for="planned_completion">Planned completion:</label>
+          <span class="nonedit">{planned_date_completed}{date_completed_placeholder}</span>
+            <input type="date" value="{planned_date_completed}" /></p>
+          </section>
+          </div>
+    </div>
+</div>

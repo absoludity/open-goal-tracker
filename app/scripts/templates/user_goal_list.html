@@ -1,0 +1,11 @@
+<ul data-role="listview" data-inset="true" data-filter="<%= filter %>">
+  <li>
+    <label class="goal-label" for="new-goal">I want to:</label>
+    <input type="text" id="newGoalInput" class="goal-input" placeholder="jam once a week with Won" x-webkit-speech>
+  </li>  
+<% if(user_goals.length > 0) { %>
+  <% _.each( user_goals, function( user_goal, i ){ %>
+  <li><%= item_template({user_goal: user_goal}) %></li>
+  <% }); %>
+<% } %>
+</ul>
