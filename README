@@ -1,0 +1,27 @@
+Open Goal Tracker
+=================
+
+Unless otherwise noted, the files within Open Goal Tracker are free software
+licensed under the LGPL - see the LICENSE file for more information.
+
+Development
+-----------
+
+If you've got PhantomJS (>1.5.0) on your path, then:
+
+$ make test
+
+should show you that everything is ready to go.
+
+To run a development server:
+
+$ make run
+
+then visit http://localhost:3000/ to play with the app, or
+http://localhost:3000/test/ to run the tests in the browser.
+
+To have fun doing test-driven development:
+
+$ make watch
+
+and tests will run on each change, with Ubuntu OSD notifications.
