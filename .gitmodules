@@ -1,0 +1,9 @@
+[submodule "3rdparty/backbone-amd"]
+	path = 3rdparty/backbone-amd
+	url = https://github.com/amdjs/backbone.git
+[submodule "3rdparty/backbone-localStorage"]
+	path = 3rdparty/backbone-localStorage
+	url = https://github.com/jeromegn/Backbone.localStorage.git
+[submodule "3rdparty/underscore-amd"]
+	path = 3rdparty/underscore-amd
+	url = https://github.com/amdjs/underscore.git
