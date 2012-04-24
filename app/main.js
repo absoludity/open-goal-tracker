@@ -11,9 +11,9 @@ require.config({
         'order': 'app/scripts/libs/requirejs/plugins/order-min-1.0.5',
 
         // 3rd party libs
-        'backbone': 'app/scripts/libs/backbone/0.9.1-amdjs/backbone',
-        'backbone.localStorage': 'app/scripts/libs/backbone/plugins/backbone.localStorage-min',
-        'underscore': 'app/scripts/libs/underscore/1.3.1-amdjs/underscore',
+        'backbone': 'app/scripts/libs/backbone',
+        'backbone.localStorage': 'app/scripts/libs/backbone.localStorage',
+        'underscore': 'app/scripts/libs/underscore',
         'jquery': 'app/scripts/libs/jquery/jquery-1.7.1.min',
         'jquery-mobile': 'app/scripts/libs/jquery.mobile-1.0.1',
 

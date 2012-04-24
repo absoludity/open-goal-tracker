@@ -1,1 +1,1 @@
-3rdparty/backbone-amd/backbone.js
+../../../3rdparty/backbone-amd/backbone.js
