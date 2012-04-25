@@ -8,7 +8,7 @@ test: test-unit
 test-unit: build
 	@phantomjs bin/run-qunit.js file://$(PWD)/test/index.html
 
-test-unit-xml: build
+test-unit-xml: 
 	@phantomjs bin/run-qunit.js file://$(PWD)/test/index.html junit-xml
 
 test-debug: build

@@ -11,7 +11,7 @@ require.config({
         'backbone.localStorage': 'app/scripts/libs/backbone.localStorage',
         'underscore': 'app/scripts/libs/underscore',
         'jquery': 'app/scripts/libs/jquery/jquery-1.7.1.min',
-        'jquery-mobile': 'app/scripts/libs/jquery.mobile-1.0.1',
+        'jquery-mobile': 'app/scripts/libs/jquery.mobile-1.1.0.min',
 
         'models': 'app/scripts/models',
         'collections': 'app/scripts/collections',
